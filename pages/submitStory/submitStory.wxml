@@ -1,0 +1,23 @@
+<!--pages/submitStory/submitStory.wxml-->
+
+<!-- development doc -->
+<!-- https://developers.weixin.qq.com/miniprogram/dev/component/form.html -->
+<!-- https://developers.weixin.qq.com/miniprogram/dev/component/input.html -->
+
+<view class="container-submitStory">
+  
+<form catchsubmit="formSubmit">
+    <view class="form-title">
+        <text>Submit Your Complain here!</text>
+        <input class="input box" placeholder="what's new today?" name="text" />
+    </view>
+    
+    <view class="form-author">
+        <text class="form author">Author</text>
+        <input class="input box" placeholder="your name" name="name" />
+    </view>
+
+    <button formType="submit">Submit</button>
+</form>
+
+  </view>

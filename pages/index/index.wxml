@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container" style="background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3611749551,1364424938&fm=26&gp=0.jpg);">
+   <view class="banner">
+    <view class="title">f My Code</view>
+    <view class="sub-title">welcome to the app</view>
+   </view>
+
+    <button size="default"  style="padding: 30rpx;" bindtap="navigateToSumbit">Submit Story 📝 </button>
+
+</view>

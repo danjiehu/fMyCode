@@ -1,0 +1,21 @@
+/**index.wxss**/
+.banner {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 10vh;
+}
+
+.title {
+  font-size: 100rpx;
+  text-align: center;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 60rpx;
+}
+
+button {
+  margin: 30rpx !important;
+}

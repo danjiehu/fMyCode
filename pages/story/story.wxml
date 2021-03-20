@@ -1,0 +1,17 @@
+<!--pages/story/story.wxml-->
+
+<view id="container">
+
+  <view wx:if="{{stories.length !== 0}}" class="card {{index===activeIndex?'active':''}}" wx:for-index="index" data-index="{{index}}" wx:for="{{stories}}" wx:for-item="eachStory" bindtap="clickOnCard">
+    <!-- add a class, if tap is selected on, show active class -->
+    <!-- listen to a tap event, bindtap a function and change background-->
+    <view class="title">{{eachStory.text}}</view>
+    <view class="author">{{eachStory.name}}</view>
+  </view>
+
+  <view wx:if="{{stories.length === 0 }}" class="card">
+    <view class="title">you don't have any story yet 😱</view>
+    <view class="author"></view>
+  </view>
+
+</view>

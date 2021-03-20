@@ -1,0 +1,12 @@
+/**app.wxss**/
+.container {
+  /* background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3611749551,1364424938&fm=26&gp=0.jpg); */
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  padding: 300rpx 0;
+  box-sizing: border-box;
+} 
